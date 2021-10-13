@@ -33,6 +33,7 @@ You should feel free to:
 ### How to contribute: 
 * Open or claim an Issue
 * Fork the repository
+* Clone to your local (git clone https://github.com/yourUserName/Rubys-Cupcakes.git)
 * Create a new branch (git checkout -b branchName)
 * Make code changes
 * Get ready for commit (git add .)
