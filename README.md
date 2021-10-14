@@ -1,8 +1,9 @@
+![Screenshot 2021-10-14 081222](https://user-images.githubusercontent.com/46421126/137315003-d82fdc2d-2ccd-46c2-8859-69120f1a1652.png)
+
 # Ruby's Cupcakes
 Website design for a fictional bakery: Ruby's Cupcakes. 
 
 This is a great place to practice CSS, HTML, and contributing to open source and #Hacktoberfest! Please read through the documentation carefully before contributing. 
-
 
 ## Design
 The design system is created to be both flexible... and strict. 
