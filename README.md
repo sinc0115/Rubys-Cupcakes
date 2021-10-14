@@ -24,10 +24,11 @@ Interactive XD Prototype: https://xd.adobe.com/view/a8dd4f8b-bb8f-4d89-b7a9-9db0
 * Bright Pink: #DA4167 
 * Blue: #004E89 
 * General font: #002E52
+* Placholder font: #A3B4C1
 
 ### Fonts
-Bitter: https://fonts.google.com/specimen/Bitter
-Roboto: https://fonts.google.com/specimen/Roboto
+* Bitter: https://fonts.google.com/specimen/Bitter
+* Roboto: https://fonts.google.com/specimen/Roboto
 
 ## Contributing Guidelines
 
