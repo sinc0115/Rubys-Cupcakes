@@ -19,7 +19,7 @@ You should feel free to:
 ### Prototypes - Here's the Design!
 Interactive XD Prototype: https://xd.adobe.com/view/a8dd4f8b-bb8f-4d89-b7a9-9db06f175b0e-fd8e/
 
-In the left-hand-panel you will find a 'code' tab. This will let you inspect different parts of the design to see things like their size, color, font, etc. Sort of like dev tools for design. 
+In the right-hand-panel you will find a 'code' tab. This will let you inspect different parts of the design to see things like their size, color, font, etc. Sort of like dev tools for design. 
 
 ### Color Scheme
 * Background gradient: linear-gradient(#FBEFFF, #F9E2F4) 
