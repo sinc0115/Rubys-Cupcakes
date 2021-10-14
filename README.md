@@ -1,7 +1,7 @@
 # Ruby's Cupcakes
 Website design for a fictional bakery: Ruby's Cupcakes. 
 
-This is a great place to practice CSS, HTML, and contributing to open source! Please read through the documentation carefully before contributing. 
+This is a great place to practice CSS, HTML, and contributing to open source and #Hacktoberfest! Please read through the documentation carefully before contributing. 
 
 
 ## Design
@@ -16,11 +16,18 @@ You should feel free to:
 * Suggest UI improvements through issues
 
 ### Prototypes
+Interactive XD Prototype: https://xd.adobe.com/view/a8dd4f8b-bb8f-4d89-b7a9-9db06f175b0e-fd8e/
 
 ### Color Scheme
+Background gradient: linear-gradient(#FBEFFF, #F9E2F4)
+Light Pink: #FBEFFF
+Bright Pink: #DA4167
+Blue: #004E89
+General font: #002E52
 
 ### Fonts
-
+Bitter: https://fonts.google.com/specimen/Bitter
+Roboto: https://fonts.google.com/specimen/Roboto
 
 ## Contributing Guidelines
 
