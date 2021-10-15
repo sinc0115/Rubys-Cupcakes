@@ -1,37 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;600;700&display=swap');
 html,
 body {
-  margin: 0;
-  width: 100%;
-  max-width: 100vw;
-  background-color: #FBEFFF;
+    margin: 0;
+    width: 100%;
+    max-width: 100vw;
+    background-color: #FBEFFF;
 }
-ul{
-   text-decoration: none;
-   list-style-type: none;
-   display: flex;
-   justify-content: right;
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
 }
-li{
-  margin-right: 90px;
-  font-size: 20px;
+
+li {
+    margin-right: 90px;
+    font-size: 20px;
 }
+
 h1 {
-  width: 140px;
-  height: 80px;
-  background-color: red;
-  animation-name: example;
-  animation-duration: 4s;
-  margin-left: 20px;
-  
+    width: 140px;
+    height: 80px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-left: 20px;
 }
 
 @keyframes example {
-  from {background-color: red;}
-  to {background-color: yellow;}
+    from {
+        background-color: red;
+    }
+    to {
+        background-color: yellow;
+    }
 }
-button{
-  border-radius: 5px;
-  background-color: #004E89;
-  font-size: 30px;
-  margin-right: 20px;
+
+button {
+    border-radius: 5px;
+    background-color: #004E89;
+    font-size: 30px;
+    margin-right: 20px;
 }
+
+
+/* start cupcake page */
+
+.cupCakeContainer {
+    margin: 0 120px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #002E52;
+}
+
+.cupCakes h2 {
+    font-size: 70px;
+    color: #004E89;
+    font-family: 'Bitter', serif;
+}
+
+.cupCakes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cupCakeCard {
+    width: 310px;
+    height: 443px;
+    background-color: rgba(255, 255, 255, 0.76);
+    /* background-color: #fff; */
+    border-radius: 10%;
+    margin: 30px
+}
+
+.cupCakeCard img {
+    width: 310px;
+    height: 310px;
+    border-radius: 10%;
+    object-fit: cover;
+}
+
+.cupCakeCardDesc {
+    margin: 30px 40px;
+}
+
+
+/* end cupcake page */
