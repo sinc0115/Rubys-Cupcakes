@@ -1,33 +1,45 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Ruby's Cupcakes</title>
-        <link rel="stylesheet" href="style.css">
 
-        <!-- FONT AWESOME -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    </head>
-    <body>
-        <div class="container">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ruby's Cupcakes</title>
+    <link rel="stylesheet" href="style.css">
 
-            <!-- NAV -->
-            <nav>
-                <ul>
-                    <li>Ruby's</li>
-                    <li>About</li>
-                    <li>Cupcakes</li>
-                    <li>Contact</li>
-                </ul>
-            </nav>
-            <!-- NAV ENDS -->
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!-- FONT FAMILY -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
 
-             <!-- HEADER -->
-             <header>
-                <h1>About Ruby's</h1>
-                <p>An award-winning vegan cupcake bakery. At Ruby's we care about crafting delicious treats with quality ingredients. Every product is made from ethically and ecologically sourced ingredients to give you a treat that you can feel good about.</p>
-                <img src="/images/stefan-hiienurm-qoPrNU12Cg0-unsplash.jpg">
+<body>
+    <div class="container">
+
+        <!-- NAV -->
+        <nav>
+            <ul>
+                <li>Ruby's</li>
+                <li>About</li>
+                <li>Cupcakes</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        <!-- NAV ENDS -->
+        <div class="aboutContainer">
+
+            <!-- HEADER -->
+            <header>
+                <div class="aboutHeader">
+                    <div class="aboutHeaderTxt">
+                        <h1>About Ruby's</h1>
+                        <p>An award-winning vegan cupcake bakery. At Ruby's we care about crafting delicious treats with quality ingredients. Every product is made from ethically and ecologically sourced ingredients to give you a treat that you can feel
+                            good about.</p>
+                    </div>
+
+                    <div class="headerImage"><img src="./images/stefan-hiienurm-qoPrNU12Cg0-unsplash.jpg"></div>
+                </div>
             </header>
             <!-- HEADER ENDS -->
 
@@ -35,8 +47,8 @@
             <main>
 
                 <!-- INGREDIENTS TO CARE ABOUT -->
-                <div>
-                    <h2>Ingredients to Care About</h2>
+                <div class="aboutMainIngredient">
+                    <h2 class="titleTxt">Ingredients to Care About</h2>
                     <p>Each cupcake is made with ingredients that are: </p>
                     <p>Certified Eco-Conscious by the Canadian Alliance for the Climate.</p>
                     <p>Vegan guaranteed by Peta.</p>
@@ -46,32 +58,32 @@
 
                 <!-- PEOPLE LOVE US -->
                 <div>
-                    <h2>People Love Us</h2>
+                    <h2 class="titleTxt">People Love Us</h2>
 
                     <!-- AWARD CARDS -->
-                    <div>
+                    <div class="aboutCardWrapper">
 
                         <!-- CARD -->
-                        <div>
-                            <p>Top Bakery</p>
-                            <div><i class="fas fa-award"></i></div>
-                            <p>Voted the Top Bakery in Chocolateville, for 3 years running.</p>
+                        <div class="aboutCard">
+                            <p class="aboutCardTitle">Top Bakery, 2021</p>
+                            <div class="aboutCardIcon"><i class="fas fa-award"></i></div>
+                            <p class="aboutCardDesc">Voted the Top Bakery in Chocolateville, for 3 years running.</p>
                         </div>
                         <!-- CARD ENDS -->
 
                         <!-- CARD -->
-                        <div>
-                            <p>Customer's Choice</p>
-                            <div><i class="fas fa-award"></i></div>
-                            <p>Ranked Customer's Choice by Consumer Monthly.</p>
+                        <div class="aboutCard">
+                            <p class="aboutCardTitle">Customer's Choice</p>
+                            <div class="aboutCardIcon"><i class="fas fa-award"></i></div>
+                            <p class="aboutCardDesc">Ranked Customer's Choice by Consumer Monthly.</p>
                         </div>
                         <!-- CARD ENDS -->
 
                         <!-- CARD -->
-                        <div>
-                            <p>Critics Award</p>
-                            <div><i class="fas fa-award"></i></div>
-                            <p>Food Critics Association Award.</p>
+                        <div class="aboutCard">
+                            <p class="aboutCardTitle">Critics Award</p>
+                            <div class="aboutCardIcon"><i class="fas fa-award"></i></div>
+                            <p class="aboutCardDesc">Food Critics Association Award.</p>
                         </div>
                         <!-- CARD ENDS -->
 
@@ -88,17 +100,22 @@
             <footer>
 
                 <!-- SOCIAL MEDIA -->
-                <div>
-                    <img src="./images/facebook.png" width="50px">
-                    <img src="./images/instagram.png" width="50px">
-                    <img src="./images/twitter.png" width="50px">
-                </div>
+
+                <span class="socialIcon">
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+
+                </span>
+
                 <!-- SOCIAL MEDIA ENDS -->
 
                 <p>&copy; 2021, Ruby's Cupcakes</p>
             </footer>
             <!-- FOOTER ENDS -->
-
         </div>
-    </body>
+
+    </div>
+</body>
+
 </html>
