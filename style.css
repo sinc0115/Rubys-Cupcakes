@@ -1,37 +1,144 @@
 html,
 body {
-  margin: 0;
-  width: 100%;
-  max-width: 100vw;
-  background-color: #FBEFFF;
+    margin: 0;
+    width: 100%;
+    max-width: 100vw;
+    background-color: #FBEFFF;
 }
-ul{
-   text-decoration: none;
-   list-style-type: none;
-   display: flex;
-   justify-content: right;
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
 }
-li{
-  margin-right: 90px;
-  font-size: 20px;
+
+li {
+    margin-right: 90px;
+    font-size: 20px;
 }
+
 h1 {
-  width: 140px;
-  height: 80px;
-  background-color: red;
-  animation-name: example;
-  animation-duration: 4s;
-  margin-left: 20px;
-  
+    width: 140px;
+    height: 80px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-left: 20px;
+    color: white;
 }
 
 @keyframes example {
-  from {background-color: red;}
-  to {background-color: yellow;}
+    from {
+        background-color: red;
+    }
+    to {
+        background-color: yellow;
+    }
 }
-button{
-  border-radius: 5px;
-  background-color: #004E89;
-  font-size: 30px;
-  margin-right: 20px;
+
+button {
+    border-radius: 5px;
+    background-color: #004E89;
+    font-size: 30px;
+    margin-right: 20px;
 }
+
+
+/* start about page css */
+
+.aboutContainer {
+    margin: 0 120px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.aboutHeader {
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutHeaderTxt {
+    width: 600px;
+    text-align: left;
+}
+
+.aboutHeaderTxt p {
+    font-size: 25px;
+    line-height: 2;
+    color: #002E52;
+}
+
+.headerImage {
+    width: 490px;
+    height: 541px;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.headerImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.aboutMainIngradient {
+    color: #002E52;
+    font-size: 25px;
+}
+
+
+/* two title txt one in aboutMainIngradient and another in  pleopleLove section*/
+
+.titleTxt {
+    color: #004E89;
+    font-size: 70px;
+}
+
+.aboutCardWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.aboutCard {
+    width: 287px;
+    height: 406px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.644);
+    padding: 20px;
+    color: #004E89;
+    font-size: 25px;
+    margin: 10px;
+    border-radius: 10%;
+}
+
+.aboutCardTitle {
+    font-weight: 500px;
+}
+
+.aboutCardIcon {
+    font-size: 140px;
+    color: #DA4167;
+}
+
+.aboutCardDesc {
+    text-align: left;
+}
+
+footer .socialIcon {
+    font-size: 40px;
+}
+
+footer {
+    color: #002E52;
+    font-size: 25px;
+}
+
+footer p {
+    display: inline-block;
+    width: 500px;
+    text-align: center;
+}
+
+
+/* end about page css */
