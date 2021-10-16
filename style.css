@@ -1,6 +1,4 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;600;700&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
 html,
 body {
@@ -29,7 +27,6 @@ h1 {
     animation-name: example;
     animation-duration: 4s;
     margin-left: 20px;
-
 }
 
 @keyframes example {
@@ -42,12 +39,20 @@ h1 {
 }
 
 button {
-    border-radius: 5px;
-    background-color: #004E89;
+    background-color: #DA4167;
     font-size: 30px;
-    margin-right: 20px;
+    /* remove margin after whole page styled */
+    margin-right: 50px;
+    margin-left: 50px;
+    /* remove margin after whole page styled */
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+    outline: none;
+    border: none;
+    padding: 15px 40px;
+    color: white;
+    font-size: 18px;
 }
-
 
 
 /* start cupcake page */
@@ -93,6 +98,7 @@ button {
 
 
 /* end cupcake page */
+
 
 /* start about page css */
 
@@ -191,4 +197,3 @@ footer p {
 
 
 /* end about page css */
-
