@@ -1,6 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
-html,
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin: 0;
     width: 100%;
@@ -9,16 +11,46 @@ body {
 }
 
 h1 {
-    width: 140px;
-    height: 80px;
-    background-color: red;
-    animation-name: example;
-    animation-duration: 4s;
-    margin-left: 20px;
+    margin-left: 120px;
+    font-size: 105px;
+    font-family: 'Bitter', serif;
+    color: #004E89;
+    font-weight: bolder;
+    letter-spacing: -2px;
+}
+
+.hollow-h1 {
+    margin-left: 120px;
+    font-size: 105px;
+    font-family: 'Bitter', serif;
+    font-weight: bolder;
+    letter-spacing: -2px;
+    -webkit-text-stroke: 1px #004E89;
+    -webkit-text-fill-color: #FBEFFF;
 }
 
 header {
-    margin-top: 106px;
+    margin-top: 142px;
+}
+
+h2 {
+    margin-left: 120px;
+    font-size: 70px;
+    font-family: 'Bitter', serif;
+    color: #004E89;
+    font-weight: bolder;
+    letter-spacing: -1.33px;
+}
+
+h3 {
+    margin-left: 695px;
+    font-size: 55px;
+    font-family: 'Bitter', serif;
+    color: #004E89;
+    font-weight: bolder;
+    letter-spacing: -2px;
+    -webkit-text-stroke: 1px #004E89;
+    -webkit-text-fill-color: #FBEFFF;
 }
 
 /* navbar */
@@ -71,15 +103,6 @@ header {
   
   /* navbar-ends */
 
-@keyframes example {
-    from {
-        background-color: red;
-    }
-    to {
-        background-color: yellow;
-    }
-}
-
 button {
     background-color: #DA4167;
     font-size: 30px;
@@ -105,12 +128,6 @@ button {
     font-size: 25px;
     font-weight: 700;
     color: #002E52;
-}
-
-.cupCakeTitle {
-    font-size: 70px;
-    color: #004E89;
-    font-family: 'Bitter', serif;
 }
 
 .cupCakes {
@@ -181,14 +198,6 @@ button {
 .aboutMainIngredient {
     color: #002E52;
     font-size: 25px;
-}
-
-
-/* two title txt one in aboutMainIngradient and another in  pleopleLove section*/
-
-.titleTxt {
-    color: #004E89;
-    font-size: 70px;
 }
 
 .aboutCardWrapper {
