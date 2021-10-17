@@ -52,8 +52,13 @@ button {
     padding: 15px 40px;
     color: white;
     font-size: 18px;
+    transition: transform 200ms ease-in-out;
 }
 
+button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
 
 /* start cupcake page */
 
