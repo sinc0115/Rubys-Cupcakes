@@ -85,10 +85,24 @@ button {
     margin: 30px
 }
 
+.oneRoundCupCake{
+    width: 564px;
+    height: 640px;
+    border-radius: 10% 0 0 0;
+    object-fit: cover;
+}
+
+.roundedCupCake{
+    width: 526px;
+    height: 526px;
+    border-radius: 10% 0 0 0;
+    object-fit: cover;
+}
+
 .cupCakeCard img {
     width: 310px;
     height: 310px;
-    border-radius: 10%;
+    border-radius: 5%;
     object-fit: cover;
 }
 
