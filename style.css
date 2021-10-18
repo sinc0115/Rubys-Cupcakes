@@ -23,34 +23,71 @@ h1 {
     margin-left: 120px;
     font-size: 105px;
     font-family: 'Bitter', serif;
-    font-weight: bolder;
     letter-spacing: -2px;
-    -webkit-text-stroke: 1px #004E89;
+    font-weight: bolder;
+    -webkit-text-stroke: 2px #004E89;
     -webkit-text-fill-color: #FBEFFF;
 }
 
+.text-h1 {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    max-width: 650px;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.image-h1 {
+    background-color: #002E52;
+    border: 6px solid #002E52;
+    position: absolute;
+    right: 90px;
+    top: 80px;
+    z-index: -1;
+}
+
 header {
-    margin-top: 142px;
+    margin-top: 120px;
 }
 
 h2 {
-    margin-left: 120px;
     font-size: 70px;
     font-family: 'Bitter', serif;
     color: #004E89;
     font-weight: bolder;
     letter-spacing: -1.33px;
+    margin-left: 130px;
+}
+
+.text-h2{
+    float: right;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    max-width: 650px;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.image-h2 {
+    background-color: #002E52;
+    border: 7px solid #002E52;
+    border-radius: 36px;
+    left: 190px;
+    position: absolute;
+    top: 760px;
+    z-index: -1;
 }
 
 h3 {
-    margin-left: 695px;
-    font-size: 55px;
+    margin-left: 600px;
+    font-size: 60px;
     font-family: 'Bitter', serif;
     color: #004E89;
     font-weight: bolder;
     letter-spacing: -2px;
     -webkit-text-stroke: 1px #004E89;
     -webkit-text-fill-color: #FBEFFF;
+    text-align: center;
 }
 
 /* navbar */
@@ -62,15 +99,15 @@ h3 {
   
   a {
     text-decoration: none;
-    color: #004E89;
-    font-family: 'Roboto', sans-serif;
+    color: #F9E2F4;
+    font-family: 'Trebuchet MS', sans-serif;
   }
   
   .logo {
-    padding: 0 30px;
+    padding: 20px 10px;
     color: #DA4167;
     font-family: 'Bitter', serif;
-    font-size: 35px;
+    font-size: 50px;
     font-weight: bolder;
   }
   
@@ -82,8 +119,8 @@ h3 {
     top: 0;
     left: 0;
     right: 0;
-    background-color: #FBEFFF;
-    height: 106px;
+    background-color: #002E52;
+    height: 47px;
   }
   
   nav ul {
@@ -99,13 +136,15 @@ h3 {
   
   nav ul li :hover{
     font-weight: bolder;
+    position: sticky;
   }
   
   /* navbar-ends */
 
-button {
+  button {
     background-color: #DA4167;
-    font-size: 30px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 25px;
     /* remove margin after whole page styled */
     margin-right: 50px;
     margin-left: 50px;
@@ -113,22 +152,29 @@ button {
     border-radius: 20px;
     border-top-left-radius: 0px;
     outline: none;
-    border: none;
-    padding: 15px 40px;
+    border: 6px solid #002E52;
+    padding: 10px 40px;
     color: white;
-    font-size: 18px;
-    transition: transform 200ms ease-in-out;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    transform: scale(1.00);
+  }
+
+.bottom-button {
+    margin-left: 900px;
 }
 
-button:hover {
-    cursor: pointer;
-    transform: scale(1.05);
+.center {
+    margin-left: 270px;
+    margin-top: 300px;
 }
 
 /* start cupcake page */
 
 .cupCakeContainer {
-    margin: 0 120px;
+    margin: 0 70px;
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
     font-weight: 700;
@@ -158,6 +204,8 @@ button:hover {
 
 .cupCakeCardDesc {
     margin: 30px 40px;
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
 }
 
 
@@ -167,7 +215,7 @@ button:hover {
 /* start about page css */
 
 .aboutContainer {
-    margin: 0 120px;
+    margin: 0 110px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -208,7 +256,7 @@ button:hover {
 .aboutCardWrapper {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .aboutCard {
