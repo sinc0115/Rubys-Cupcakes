@@ -1,6 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
-html,
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin: 0;
     width: 100%;
@@ -8,35 +10,105 @@ body {
     background: linear-gradient(#FBEFFF, #F9E2F4);
 }
 
-ul {
-    text-decoration: none;
-    list-style-type: none;
-    display: flex;
-    justify-content: right;
-}
-
-li {
-    margin-right: 90px;
-    font-size: 20px;
-}
-
 h1 {
-    width: 140px;
-    height: 80px;
-    background-color: red;
-    animation-name: example;
-    animation-duration: 4s;
-    margin-left: 20px;
+    margin-left: 120px;
+    font-size: 105px;
+    font-family: 'Bitter', serif;
+    color: #004E89;
+    font-weight: bolder;
+    letter-spacing: -2px;
 }
 
-@keyframes example {
-    from {
-        background-color: red;
-    }
-    to {
-        background-color: yellow;
-    }
+.hollow-h1 {
+    margin-left: 120px;
+    font-size: 105px;
+    font-family: 'Bitter', serif;
+    font-weight: bolder;
+    letter-spacing: -2px;
+    -webkit-text-stroke: 1px #004E89;
+    -webkit-text-fill-color: #FBEFFF;
 }
+
+header {
+    margin-top: 142px;
+}
+
+h2 {
+    margin-left: 120px;
+    font-size: 70px;
+    font-family: 'Bitter', serif;
+    color: #004E89;
+    font-weight: bolder;
+    letter-spacing: -1.33px;
+}
+
+.cupcakes-h2 {
+    margin-left: 30px;
+}
+
+h3 {
+    margin-left: 695px;
+    font-size: 55px;
+    font-family: 'Bitter', serif;
+    color: #004E89;
+    font-weight: bolder;
+    letter-spacing: -2px;
+    -webkit-text-stroke: 1px #004E89;
+    -webkit-text-fill-color: #FBEFFF;
+}
+
+/* navbar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #004E89;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .logo {
+    padding: 0 30px;
+    color: #DA4167;
+    font-family: 'Bitter', serif;
+    font-size: 35px;
+    font-weight: bolder;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #FBEFFF;
+    height: 106px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    padding: 20px 75px;
+    position: relative;
+    font-size: 25px;
+  }
+  
+  nav ul li :hover{
+    font-weight: bolder;
+  }
+  
+  /* navbar-ends */
+
+
+/* button */
 
 button {
     background-color: #DA4167;
@@ -52,8 +124,15 @@ button {
     padding: 15px 40px;
     color: white;
     font-size: 18px;
+    transition: transform 200ms ease-in-out;
 }
 
+button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+/* button-ends */
 
 /* start cupcake page */
 
@@ -63,12 +142,6 @@ button {
     font-size: 25px;
     font-weight: 700;
     color: #002E52;
-}
-
-.cupCakeTitle {
-    font-size: 70px;
-    color: #004E89;
-    font-family: 'Bitter', serif;
 }
 
 .cupCakes {
@@ -109,7 +182,6 @@ button {
 .cupCakeCardDesc {
     margin: 30px 40px;
 }
-
 
 /* end cupcake page */
 
@@ -153,14 +225,6 @@ button {
 .aboutMainIngredient {
     color: #002E52;
     font-size: 25px;
-}
-
-
-/* two title txt one in aboutMainIngradient and another in  pleopleLove section*/
-
-.titleTxt {
-    color: #004E89;
-    font-size: 70px;
 }
 
 .aboutCardWrapper {
@@ -208,6 +272,5 @@ footer p {
     width: 500px;
     text-align: center;
 }
-
 
 /* end about page css */
