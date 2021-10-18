@@ -42,6 +42,10 @@ h2 {
     letter-spacing: -1.33px;
 }
 
+.cupcakes-h2 {
+    margin-left: 30px;
+}
+
 h3 {
     margin-left: 695px;
     font-size: 55px;
@@ -103,6 +107,9 @@ h3 {
   
   /* navbar-ends */
 
+
+/* button */
+
 button {
     background-color: #DA4167;
     font-size: 30px;
@@ -124,6 +131,8 @@ button:hover {
     cursor: pointer;
     transform: scale(1.05);
 }
+
+/* button-ends */
 
 /* start cupcake page */
 
@@ -159,7 +168,6 @@ button:hover {
 .cupCakeCardDesc {
     margin: 30px 40px;
 }
-
 
 /* end cupcake page */
 
@@ -250,6 +258,5 @@ footer p {
     width: 500px;
     text-align: center;
 }
-
 
 /* end about page css */
