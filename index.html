@@ -35,9 +35,11 @@
             <header>
                 <h1 class="hollow-h1">Ruby's</h1>
                 <h1>Cupcakes</h1>
-                <p>World famous and locally owned. We make the cupcakes of your dreams with the flavours of your childhood. Specializing in vegan cupcakes made with consciously sourced ingredients.</p>
-                <button>About Us</button>
-                <img src="./images/sara-cervera-bbyREWgpmnA-unsplash.jpg" width="500px" height="500px">
+                <div class="image-h1">
+                    <img src="./images/sara-cervera-bbyREWgpmnA-unsplash.jpg" width="500px" height="500px">
+                </div>
+                <p class="text-h1">World famous and locally owned. We make the cupcakes of your dreams with the flavours of your childhood. Specializing in vegan cupcakes made with consciously sourced ingredients.</p>
+                <button onclick="window.location.href='about.html'">About Us</button>
             </header>
             <!-- HEADER ENDS -->
 
@@ -46,50 +48,55 @@
 
                 <!-- NEW FALL FLAVOUR -->
                 <div>
-                    <h2>New Fall Flavour</h2>
+                    <h2><br>New Fall Flavour</h2>
+                    <div class="image-h2">
+                        <img src="./images/yulia-khlebnikova-3-JVAA7wNOE-unsplash.png" width="400px" height="400px">
+                    </div>
                     <h3>Maple 
                         <br>
                         Chocolate
                         <br>
                         Dream
                     </h3>
-                    <p>Decadent chocolate cake, topped with a fluffy maple frosting, and drizzled in so much maple syrup goodness that it will make your pancakes jealous. Seriously.</p>
-                    <img src="./images/yulia-khlebnikova-BayU5G2jPaQ-unsplash.jpg" width="500px" height="500px">
+                    <p class="text-h2">Decadent chocolate cake, topped with a fluffy maple frosting, and drizzled in so much maple syrup goodness that it will make your pancakes jealous. Seriously.</p>
                 </div>
                 <!-- NEW FALL FLAVOUR ENDS -->
 
                 <!-- CROWD PLEASING TREATS -->
                 <div>
-                    <h2>Crowd Pleasing Treats</h2>
+                    <h2 class="center">Crowd Pleasing Treats</h2>
 
                     <!-- CUPCAKE CARDS -->
-                    <div>
+                    <div class="cupCakeContainer">
+                        <div class="aboutCardWrapper">
 
                         <!-- CARD -->
-                        <div>
-                            <img src="./images/ohtilly-9sKcBBMII6Q-unsplash.jpg" width="250px" height="250px">
-                            <p>Chocolate Caramel Hi-Top</p>
+                        <div class="cupCakeCard">
+                            <img src="./images/ChocolateCaramelHi-Top.jpg" width="250px" height="250px">
+                            <p class="cupCakeCardDesc">Chocolate Caramel Hi-Top</p>
                         </div>
                         <!-- CARD ENDS -->
 
                         <!-- CARD -->
-                        <div>
-                            <img src="./images/yulia-khlebnikova-3-JVAA7wNOE-unsplash.jpg" width="250px" height="250px">
-                            <p>Chocolate Butterbeer</p>
+                        <div class="cupCakeCard">
+                            <img src="./images/ChocolateButterbeer.jpg" width="250px" height="250px">
+                            <p class="cupCakeCardDesc">Chocolate Butterbeer</p>
                         </div>
                         <!-- CARD ENDS -->
 
                         <!-- CARD -->
-                        <div>
-                            <img src="./images/meritt-thomas-Ao09kk2ovB0-unsplash.jpg" width="250px" height="250px">
-                            <p>Mint Chocolate Majesty</p>
+                        <div class="cupCakeCard">
+                            <img src="./images/MintChocolateMajesty.jpg" width="250px" height="250px">
+                            <p class="cupCakeCardDesc">Mint Chocolate Majesty</p>
                         </div>
                         <!-- CARD ENDS -->
                         
+                        </div>
                     </div>
                     <!-- CUPCAKE CARDS ENDS -->
-
-                    <button>More Cupcakes</button>
+                    <div class="bottom-button">
+                        <button onclick="window.location.href='cup-cakes.html'">More Cupcakes</button>
+                    </div>
                 </div>
                 <!-- CROWD PLEASING TREATS ENDS -->
 
