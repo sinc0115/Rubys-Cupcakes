@@ -223,15 +223,24 @@ button:hover {
 .about-p-ingredient {
   margin-top: 15px;
   margin-bottom: 15px;
+  margin-left: 140px;
 }
 
 .about-list-ingredient {
-  margin-bottom: ;
+  margin-bottom: 15px;
+  margin-left: 160px;
+}
+
+.about-html {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 0;
 }
 /* sulledy221 about page code */
 
 .about-h2 {
   margin-left: 0;
+  margin-bottom: 15px;
+  padding: 30px;
 }
 
 .aboutContainer {
