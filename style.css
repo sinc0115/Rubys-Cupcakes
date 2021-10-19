@@ -16,7 +16,6 @@ h1 {
     font-family: 'Bitter', serif;
     color: #004E89;
     font-weight: bolder;
-    letter-spacing: -2px; 
 }
 
 .hollow-h1 {
@@ -24,9 +23,8 @@ h1 {
     font-size: 105px;
     font-family: 'Bitter', serif;
     font-weight: bolder;
-    letter-spacing: -2px;
-    -webkit-text-stroke: 1px #004E89;
-    -webkit-text-fill-color: #FBEFFF;
+    color: #FBEFFF;
+    text-shadow: -2px -2px 1px #004E89, 2px -2px 1px #004E89, -2px 2px 1px #004E89, 2px 2px 1px #004E89;
 }
 
 header {
@@ -52,9 +50,8 @@ h3 {
     font-family: 'Bitter', serif;
     color: #004E89;
     font-weight: bolder;
-    letter-spacing: -2px;
-    -webkit-text-stroke: 1px #004E89;
-    -webkit-text-fill-color: #FBEFFF;
+    color: #FBEFFF;
+    text-shadow: -2px -2px 1px #004E89, 2px -2px 1px #004E89, -2px 2px 1px #004E89, 2px 2px 1px #004E89;
 }
 
 /* navbar */
