@@ -60,13 +60,13 @@ h3 {
     padding: 0;
     box-sizing: border-box;
   }
-  
+
   a {
     text-decoration: none;
     color: #004E89;
     font-family: 'Roboto', sans-serif;
   }
-  
+
   .logo {
     padding: 0 30px;
     color: #DA4167;
@@ -74,7 +74,7 @@ h3 {
     font-size: 35px;
     font-weight: bolder;
   }
-  
+
   nav {
     display: flex;
     justify-content: space-between;
@@ -86,22 +86,22 @@ h3 {
     background-color: #FBEFFF;
     height: 106px;
   }
-  
+
   nav ul {
     list-style: none;
     display: flex;
   }
-  
+
   nav ul li {
     padding: 20px 75px;
     position: relative;
     font-size: 25px;
   }
-  
+
   nav ul li :hover{
     font-weight: bolder;
   }
-  
+
   /* navbar-ends */
 
 
@@ -130,6 +130,34 @@ button:hover {
 
 /* button-ends */
 
+/* start index page */
+
+#bigPreview {
+    margin: 0 120px;
+    height: 526px;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.26);
+}
+
+#bigPreview img {
+    float: left;
+    align-self: center;
+}
+
+#bigPreview h3 {
+  padding-top: 20px;
+  margin-left: 45%;
+}
+
+#bigPreview p {
+  color: #002E52;
+  padding-top: 20px;
+  font-family: 'Roboto';
+  font-size: 25px;
+  line-height: 48px;
+  margin-left: 45%;
+}
+
 /* start cupcake page */
 
 .cupCakeContainer {
@@ -148,7 +176,7 @@ button:hover {
 .cupCakeCard {
     width: 310px;
     height: 443px;
-    background-color: rgba(255, 255, 255, 0.76);
+    background-color: rgba(255, 255, 255, 0.26);
     /* background-color: #fff; */
     border-radius: 10%;
     margin: 30px;
@@ -167,6 +195,7 @@ button:hover {
     height: 526px;
     border-radius: 10%;
     object-fit: cover;
+    object-position: bottom;
 }
 
 .cupCakeCard:hover .cupcake-shadow {
@@ -177,7 +206,7 @@ button:hover {
 .cupCakeCard img {
     width: 310px;
     height: 310px;
-    border-radius: 5%;
+    border-radius: 10%;
     object-fit: cover;
 }
 
@@ -197,12 +226,11 @@ button:hover {
     padding: 30px;
     padding-top: 100px;
     opacity: 0%;
-    transition: 300ms; 
+    transition: 300ms;
     text-align: center;
 }
 
 /* end cupcake page */
-
 
 /* start about page css */
 
