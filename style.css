@@ -20,7 +20,7 @@ h1 {
 }
 
 .hollow-h1 {
-    margin-left: 120px;
+    margin-left: 120px;z
     font-size: 105px;
     font-family: 'Bitter', serif;
     font-weight: bolder;
@@ -157,10 +157,24 @@ button:hover {
     margin: 28px
 }
 
+.oneRoundCupCake{
+    width: 564px;
+    height: 640px;
+    border-radius: 10% 0 0 0;
+    object-fit: cover;
+}
+
+.roundedCupCake{
+    width: 526px;
+    height: 526px;
+    border-radius: 10%;
+    object-fit: cover;
+}
+
 .cupCakeCard img {
     width: 310px;
     height: 310px;
-    border-radius: 10%;
+    border-radius: 5%;
     object-fit: cover;
 }
 
@@ -195,10 +209,19 @@ button:hover {
 }
 
 .headerImage {
+    margin-left: 10px;
     width: 490px;
     height: 541px;
     border-radius: 5%;
     overflow: hidden;
+}
+
+@media screen and (max-width : 1000px) {
+    .aboutHeader {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
 }
 
 .headerImage img {
