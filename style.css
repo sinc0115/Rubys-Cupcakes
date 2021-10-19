@@ -16,11 +16,11 @@ h1 {
     font-family: 'Bitter', serif;
     color: #004E89;
     font-weight: bolder;
-    letter-spacing: -2px;
+    letter-spacing: -2px; 
 }
 
 .hollow-h1 {
-    margin-left: 120px;
+    margin-left: 120px;z
     font-size: 105px;
     font-family: 'Bitter', serif;
     font-weight: bolder;
@@ -124,7 +124,6 @@ button {
     padding: 15px 40px;
     color: white;
     font-size: 18px;
-    transition: transform 200ms ease-in-out;
 }
 
 button:hover {
@@ -155,7 +154,7 @@ button:hover {
     background-color: rgba(255, 255, 255, 0.76);
     /* background-color: #fff; */
     border-radius: 10%;
-    margin: 30px
+    margin: 28px
 }
 
 .oneRoundCupCake{
@@ -210,10 +209,19 @@ button:hover {
 }
 
 .headerImage {
+    margin-left: 10px;
     width: 490px;
     height: 541px;
     border-radius: 5%;
     overflow: hidden;
+}
+
+@media screen and (max-width : 1000px) {
+    .aboutHeader {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
 }
 
 .headerImage img {
@@ -258,19 +266,42 @@ button:hover {
     text-align: left;
 }
 
-footer .socialIcon {
-    font-size: 40px;
-}
-
-footer {
-    color: #002E52;
-    font-size: 25px;
-}
-
-footer p {
-    display: inline-block;
-    width: 500px;
-    text-align: center;
-}
-
 /* end about page css */
+
+
+/* footer */
+
+.footer {
+    background-color: #F5DEF0;
+    padding-top: 39px;
+    margin-top: 100px;
+    height: 120px;
+    width: 947px;
+    border-radius: 0px 180px 0px 0px;
+    opacity: 1;
+}
+
+.footer-img-fb {
+    height: 40px;
+    width: 40px;
+    margin: auto 20px auto 120px;
+}
+
+.footer-img-insta {
+    height: 40px;
+    width: 40px;
+    margin: auto 20px;
+}
+
+.footer-img-twitter {
+    height: 40px;
+    width: 40px;
+    margin: auto 185px auto 20px;
+}
+
+.copyright {
+    font-size: 25px;
+    color: #002E52
+}
+
+/* footer-ends */
