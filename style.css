@@ -1,57 +1,59 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    margin: 0;
-    width: 100%;
-    max-width: 100vw;
-    background: linear-gradient(#FBEFFF, #F9E2F4);
+  margin: 0;
+  width: 100%;
+  max-width: 100vw;
+  background: linear-gradient(#fbefff, #f9e2f4);
 }
 
 h1 {
-    margin-left: 120px;
-    font-size: 105px;
-    font-family: 'Bitter', serif;
-    color: #004E89;
-    font-weight: bolder;
+  margin-left: 120px;
+  font-size: 105px;
+  font-family: "Bitter", serif;
+  color: #004e89;
+  font-weight: bolder;
 }
 
 .hollow-h1 {
-    margin-left: 120px;
-    font-size: 105px;
-    font-family: 'Bitter', serif;
-    font-weight: bolder;
-    color: #FBEFFF;
-    text-shadow: -2px -2px 1px #004E89, 2px -2px 1px #004E89, -2px 2px 1px #004E89, 2px 2px 1px #004E89;
+  margin-left: 120px;
+  font-size: 105px;
+  font-family: "Bitter", serif;
+  font-weight: bolder;
+  color: #fbefff;
+  text-shadow: -2px -2px 1px #004e89, 2px -2px 1px #004e89, -2px 2px 1px #004e89,
+    2px 2px 1px #004e89;
 }
 
 header {
-    margin-top: 142px;
+  margin-top: 142px;
 }
 
 h2 {
-    margin-left: 120px;
-    font-size: 70px;
-    font-family: 'Bitter', serif;
-    color: #004E89;
-    font-weight: bolder;
-    letter-spacing: -1.33px;
+  margin-left: 120px;
+  font-size: 70px;
+  font-family: "Bitter", serif;
+  color: #004e89;
+  font-weight: bolder;
+  letter-spacing: -1.33px;
 }
 
 .cupcakes-h2 {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
 h3 {
-    margin-left: 695px;
-    font-size: 55px;
-    font-family: 'Bitter', serif;
-    color: #004E89;
-    font-weight: bolder;
-    color: #FBEFFF;
-    text-shadow: -2px -2px 1px #004E89, 2px -2px 1px #004E89, -2px 2px 1px #004E89, 2px 2px 1px #004E89;
+  margin-left: 695px;
+  font-size: 55px;
+  font-family: "Bitter", serif;
+  color: #004e89;
+  font-weight: bolder;
+  color: #fbefff;
+  text-shadow: -2px -2px 1px #004e89, 2px -2px 1px #004e89, -2px 2px 1px #004e89,
+    2px 2px 1px #004e89;
 }
 
 /* navbar */
@@ -104,28 +106,33 @@ h3 {
 
   /* navbar-ends */
 
+nav ul li :hover {
+  font-weight: bolder;
+}
+
+/* navbar-ends */
 
 /* button */
 
 button {
-    background-color: #DA4167;
-    font-size: 30px;
-    /* remove margin after whole page styled */
-    margin-right: 50px;
-    margin-left: 50px;
-    /* remove margin after whole page styled */
-    border-radius: 20px;
-    border-top-left-radius: 0px;
-    outline: none;
-    border: none;
-    padding: 15px 40px;
-    color: white;
-    font-size: 18px;
+  background-color: #da4167;
+  font-size: 30px;
+  /* remove margin after whole page styled */
+  margin-right: 50px;
+  margin-left: 50px;
+  /* remove margin after whole page styled */
+  border-radius: 20px;
+  border-top-left-radius: 0px;
+  outline: none;
+  border: none;
+  padding: 15px 40px;
+  color: white;
+  font-size: 18px;
 }
 
 button:hover {
-    cursor: pointer;
-    transform: scale(1.05);
+  cursor: pointer;
+  transform: scale(1.05);
 }
 
 /* button-ends */
@@ -161,16 +168,16 @@ button:hover {
 /* start cupcake page */
 
 .cupCakeContainer {
-    margin: 0 120px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 25px;
-    font-weight: 700;
-    color: #002E52;
+  margin: 0 120px;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: #002e52;
 }
 
 .cupCakes {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .cupCakeCard {
@@ -183,11 +190,11 @@ button:hover {
     position: relative;
 }
 
-.oneRoundCupCake{
-    width: 564px;
-    height: 640px;
-    border-radius: 10% 0 0 0;
-    object-fit: cover;
+.oneRoundCupCake {
+  width: 564px;
+  height: 640px;
+  border-radius: 10% 0 0 0;
+  object-fit: cover;
 }
 
 .roundedCupCake{
@@ -199,8 +206,8 @@ button:hover {
 }
 
 .cupCakeCard:hover .cupcake-shadow {
-    /* display: block; */
-    opacity: 100%;
+  /* display: block; */
+  opacity: 100%;
 }
 
 .cupCakeCard img {
@@ -211,7 +218,7 @@ button:hover {
 }
 
 .cupCakeCardDesc {
-    margin: 30px 40px;
+  margin: 30px 40px;
 }
 
 .cupcake-shadow {
@@ -235,132 +242,156 @@ button:hover {
 /* start about page css */
 
 .about-h1 {
-    margin-left: 0;
+  margin-left: 0;
 }
 
 .about-hollow-h1 {
-    margin-left: 0;
+  margin-left: 0;
 }
 
+/* sulledy221 about page code */
+
+.about-p {
+  margin-top: 10px;
+}
+
+.about-p-ingredient {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 140px;
+}
+
+.about-list-ingredient {
+  margin-bottom: 15px;
+  margin-left: 160px;
+}
+
+.about-html {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 0;
+}
+/* sulledy221 about page code */
+
 .about-h2 {
-    margin-left: 0;
+  margin-left: 0;
+  margin-bottom: 15px;
+  padding: 30px;
 }
 
 .aboutContainer {
-    margin: 0 120px;
-    font-family: 'Roboto', sans-serif;
+  margin: 0 120px;
+  font-family: "Roboto", sans-serif;
 }
 
 .aboutHeader {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .aboutHeaderTxt {
-    width: 600px;
-    text-align: left;
+  width: 600px;
+  text-align: left;
 }
 
 .aboutHeaderTxt p {
-    font-size: 25px;
-    line-height: 2;
-    color: #002E52;
+  font-size: 25px;
+  line-height: 2;
+  color: #002e52;
 }
 
 .headerImage {
-    margin-left: 10px;
-    width: 490px;
-    height: 541px;
-    border-radius: 5%;
-    overflow: hidden;
+  margin-left: 10px;
+  width: 490px;
+  height: 541px;
+  border-radius: 5%;
+  overflow: hidden;
 }
 
-@media screen and (max-width : 1000px) {
-    .aboutHeader {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
+@media screen and (max-width: 1000px) {
+  .aboutHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
 }
 
 .headerImage img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .aboutMainIngredient {
-    color: #002E52;
-    font-size: 25px;
+  color: #002e52;
+  font-size: 25px;
 }
 
 .aboutCardWrapper {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .aboutCard {
-    width: 287px;
-    height: 406px;
-    text-align: center;
-    background: rgba(255, 255, 255, 0.644);
-    padding: 20px;
-    color: #004E89;
-    font-size: 25px;
-    margin: 10px;
-    border-radius: 10%;
+  width: 287px;
+  height: 406px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.644);
+  padding: 20px;
+  color: #004e89;
+  font-size: 25px;
+  margin: 10px;
+  border-radius: 10%;
 }
 
 .aboutCardTitle {
-    font-weight: 500px;
+  font-weight: 500px;
 }
 
 .aboutCardIcon {
-    font-size: 140px;
-    color: #DA4167;
+  font-size: 140px;
+  color: #da4167;
 }
 
 .aboutCardDesc {
-    text-align: left;
+  text-align: left;
 }
 
 /* end about page css */
 
-
 /* footer */
 
 .footer {
-    background-color: #F5DEF0;
-    padding-top: 39px;
-    margin-top: 100px;
-    height: 120px;
-    width: 947px;
-    border-radius: 0px 180px 0px 0px;
-    opacity: 1;
+  background-color: #f5def0;
+  padding-top: 39px;
+  margin-top: 100px;
+  height: 120px;
+  width: 947px;
+  border-radius: 0px 180px 0px 0px;
+  opacity: 1;
 }
 
 .footer-img-fb {
-    height: 40px;
-    width: 40px;
-    margin: auto 20px auto 120px;
+  height: 40px;
+  width: 40px;
+  margin: auto 20px auto 120px;
 }
 
 .footer-img-insta {
-    height: 40px;
-    width: 40px;
-    margin: auto 20px;
+  height: 40px;
+  width: 40px;
+  margin: auto 20px;
 }
 
 .footer-img-twitter {
-    height: 40px;
-    width: 40px;
-    margin: auto 185px auto 20px;
+  height: 40px;
+  width: 40px;
+  margin: auto 185px auto 20px;
 }
 
 .copyright {
-    font-size: 25px;
-    color: #002E52
+  font-size: 25px;
+  color: #002e52;
 }
 
 /* footer-ends */
