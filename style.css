@@ -12,6 +12,7 @@ body {
 .homepage{
     color: #002E52;
     font-size : 25px;
+    font-family: 'Roboto' ,sans-serif;
 }
 h1 {
     margin-left: 120px;
