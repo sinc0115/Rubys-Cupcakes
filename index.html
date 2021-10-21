@@ -18,8 +18,6 @@
 
     </head>
     <body>
-        <div class="container">
-
             <!-- NAV -->
             <nav>
                 <h2><a class="logo" href="index.html">Ruby's</a></h2>
@@ -31,14 +29,27 @@
             </nav>
             <!-- NAV ENDS -->
 
-
+          <div class="container">
             <!-- HEADER -->
+
             <header>
                 <h1 class="hollow-h1">Ruby's</h1>
                 <h1>Cupcakes</h1>
                 <p class="homepage">World famous and locally owned. We make the cupcakes of your dreams with the flavours of your childhood. Specializing in vegan cupcakes made with consciously sourced ingredients.</p>
                 <button><a href="about.html" class="button">About Us</a></button>
                 <img class="oneRoundCupCake" src="./images/sara-cervera-bbyREWgpmnA-unsplash.jpg" width="500px" height="500px" alt="cupcakes with pink icing on white ceramic plate">
+
+            <header class= "container1">
+              <div class= "left-header">
+              <h1 class="hollow-h1">Ruby's</h1>
+              <h1>Cupcakes</h1>
+              <p class ="p-description1">World famous and locally owned. We make the cupcakes of your dreams with the flavours of your childhood. Specializing in vegan cupcakes made with consciously sourced ingredients.</p>
+              <button class="header-button"><a class="white-text" href="about.html">About Us</a></button>
+              </div>
+              <div class="header-image">
+              <img class="oneRoundCupCake" src="./images/sara-cervera-bbyREWgpmnA-unsplash.jpg" alt="cupcakes with pink icing on white ceramic plate">
+              </div>
+
             </header>
             <!-- HEADER ENDS -->
 
@@ -46,8 +57,9 @@
             <main>
 
                 <!-- NEW FALL FLAVOUR -->
-                <div>
+                <div class ="container2">
                     <h2>New Fall Flavour</h2>
+
                     <h3>Maple
                         <br>
                         Chocolate
@@ -57,15 +69,32 @@
                     <p class="homepage">Decadent chocolate cake, topped with a fluffy maple frosting, and drizzled in so much maple syrup goodness that it will make your pancakes jealous. Seriously.</p>
                     <img class="roundedCupCake" src="./images/MapleChocolateDream.jpg" width="500px" height="500px"
                          alt="Bacon Chocolate Cupcake on white surface, with Maple Butter Frosting and caramel drizzle in brown capcake holder">
+
+                    <div id="bigPreview">
+                      <img class="roundedCupCake" src="./images/MapleChocolateDream.jpg"
+                           alt="Bacon Chocolate Cupcake on white surface, with Maple Butter Frosting and caramel drizzle in brown capcake holder">
+                      <h3>Maple
+                          <br>
+                          Chocolate
+                          <br>
+                          Dream
+                      </h3>
+                      <p class ="p-description2">Decadent chocolate cake, topped with a fluffy maple frosting, and drizzled in so much maple syrup goodness that it will make your pancakes jealous. Seriously.</p>
+
+                    </div>
+
                 </div>
                 <!-- NEW FALL FLAVOUR ENDS -->
 
                 <!-- CROWD PLEASING TREATS -->
-                <div>
-                    <h2>Crowd Pleasing Treats</h2>
+                <div class="cupCakeContainer">
+                    <header>
+                        <h2 class="cupcakes-h2">Crowd Pleasing Treats</h2>
+                    </header>
 
                     <!-- CUPCAKE CARDS -->
-                    <div>
+                    <div class="cupCakes">
+
 
                         <!-- CARD -->
                         <div>
@@ -91,25 +120,67 @@
                         </div>
                         <!-- CARD ENDS -->
 
+                      <!-- CARD -->
+                      <div class="cupCakeCard">
+                        <img src="./images/ChocolateCaramelHi-Top.jpg" alt="Chocolate cupcake with caramel buttercream and Chocolate Shavings, on round white ceramic plate">
+                        <div class="cupCakeCardDesc">
+                          <p>Chocolate Caramel Hi-Top</p>
+                        </div>
+                        <div class="cupcake-shadow">
+                            <p>This rich cake makes an impressive centrepiece for any summer tea party.</p>
+                        </div>
+                      </div>
+                      <!-- CARD ENDS -->
+
+                      <!-- CARD -->
+                      <div class="cupCakeCard">
+                        <img src="./images/ChocolateButterbeer.jpg" alt="Bacon Chocolate Cupcake with Maple Butter Frosting and caramel drizzle">
+                        <div class="cupCakeCardDesc">
+                          <p>Chocolate Butterbeer</p>
+                        </div>
+                        <div class="cupcake-shadow">
+                            <p>Makes for a perfect snack after a long and busy day.</p>
+                        </div>
+                      </div>
+                      <!-- CARD ENDS -->
+
+                      <!-- CARD -->
+                      <div class="cupCakeCard">
+                        <img src="./images/MintChocolateMajesty.jpg" alt="Chocolate Cupcake with mint frosting and dark round chocolate chip in black capcake holder">
+                        <div class="cupCakeCardDesc">
+                          <p>Mint Chocolate Majesty</p>
+                        </div>
+                        <div class="cupcake-shadow">
+                            <p>A very delicious gift for your significant other.</p>
+                        </div>
+                      </div>
+                      <!-- CARD ENDS -->
+
+
                     </div>
                     <!-- CUPCAKE CARDS ENDS -->
 
+
                     <button><a href="cup-cakes.html" class="button">More Cupcakes</a></button>
+
+                    <button><a class="white-text" href="cup-cakes.html">More Cupcakes</a></button>
+
                 </div>
                 <!-- CROWD PLEASING TREATS ENDS -->
 
             </main>
+          </div>
             <!-- MAIN ENDS -->
 
             <!-- FOOTER -->
             <div class="footer">
-                <a class="footer-link" href="#" target="_blank"><img class="footer-img-fb" src="images/facebook.png" alt="facebook-logo-img"></a>
-                <a class="footer-link" href="#" target="_blank"><img class="footer-img-insta" src="images/instagram.png" alt="instagram-logo-img"></a>
-                <a class="footer-link" href="#" target="_blank"><img class="footer-img-twitter" src="images/twitter.png" alt="twitter-img"></a>
+                <a class="footer-img-fb" href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a>
+                <a class="footer-img-insta" href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram-square fa-3x"></i></a>
+                <a class="footer-img-twitter" href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a>
                 <span class="copyright">&copy; 2021, Ruby's Cupcakes</span>
             </div>
             <!-- FOOTER ENDS -->
 
-        </div>
+        
     </body>
 </html>
