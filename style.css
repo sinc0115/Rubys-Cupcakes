@@ -513,6 +513,73 @@ button:hover {
 
 /* end about page css */
 
+/* start contact page css */
+  /* Form  */
+  .form {
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+  }
+    
+  .form h4, .form label{
+    color: #002E52;
+    font-size : 25px;
+    font-family: 'Roboto' ,sans-serif;
+  }
+
+  .form h4{
+    margin-bottom: 10px;;
+  }
+
+  .form label {
+    margin-top: 10px;;
+  }
+
+  input, textarea {
+    border-radius: 15px;
+    font-size : 25px;
+    padding: 10px 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: none;
+  }
+
+
+  input[type="submit"] {
+    background-color: #DA4167;
+    color: #ffffff;
+    border-top-left-radius: 0px;
+    max-width: 175px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  input:focus, textarea:focus{
+    outline: 2px solid #DA4167;
+  }
+
+  label span.inputRequired {
+    color: #DA4167;
+  }
+
+  ::placeholder { 
+    color: #A3B4C1;
+    opacity: 1; 
+    font-family: 'Roboto' ,sans-serif;
+  }
+
+  ::-ms-input-placeholder { 
+    color: #A3B4C1;
+    font-family: 'Roboto' ,sans-serif;
+  }  
+
+  :-ms-input-placeholder { 
+    color: #A3B4C1;
+    font-family: 'Roboto' ,sans-serif;
+  }    
+
+/* end contact page css */
+
 /* footer */
 
 .footer {
