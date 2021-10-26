@@ -513,6 +513,16 @@ button:hover {
 
 /* end about page css */
 
+/* start contact page css */
+.contactHeader header h2 {
+  margin-left: 0px;
+}
+
+.contactMain {
+  display: flex;
+}
+/* end contac page css */
+
 /* footer */
 
 .footer {
