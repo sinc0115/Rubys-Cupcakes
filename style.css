@@ -11,6 +11,7 @@ body {
     background: linear-gradient(#FBEFFF, #F9E2F4);
 }
 .homepage{
+    /* display: flex; */
     color: #002E52;
     font-size : 25px;
     font-family: 'Roboto' ,sans-serif;
@@ -148,6 +149,20 @@ h1 {
     2px 2px 1px #004e89;
 }
 
+/* Aditya start */
+/* .oneRoundCupCake{
+  float:right;
+} */
+img.oneRoundCupCake{
+  float:left;
+}
+.change1{
+  float: right;
+  margin: 10px;
+  border: #df9bac solid 10px;
+}
+/* Aditya end  */
+
 /* ryan start */
 .container{
   margin-top: 175px;
@@ -181,7 +196,8 @@ h1 {
   margin-right: -7.2%;
 }
 
-.oneRoundCupCake{    
+.oneRoundCupCake{   
+  float: right; 
   width: 700px;
   height: 800px;
   border-radius: 40px 0px 0px 0px;    
