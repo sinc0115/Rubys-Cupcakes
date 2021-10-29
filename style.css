@@ -669,12 +669,16 @@ label span.inputRequired {
 .p-details-description {
     font-family: "Roboto";
     font-weight: 600;
+    font-size: 25px;
+    color: #002E52;
+    text-align: left;
+    margin-bottom: 20px;
 }
 
 .aboutTimings {
     position: absolute;
     top: 275px;
-    left: 681px;
+    left: 50%;
     width: 50%;
 }
 
@@ -688,6 +692,12 @@ label span.inputRequired {
     .form-contact {
         width: 100% !important;
     }
+    .map {
+        position: relative !important;
+        top: unset !important;
+        left: unset !important;
+        width: auto !important;
+    }
 }
 
 .form-contact {
@@ -697,11 +707,11 @@ label span.inputRequired {
     color: #002E52;
     text-align: left;
     margin-bottom: 20px;
+    padding-right: 30px;
     width: 40%;
 }
 
 .contact-footer {
-    /* position: fixed; */
     bottom: 0;
     left: 0;
 }
@@ -732,4 +742,32 @@ label span.inputRequired {
     color: #002E52;
     text-align: left;
     margin-bottom: 20px;
+}
+
+.map {
+    position: absolute;
+    top: 511px;
+    left: 50%;
+    width: 50%;
+    margin-top: 71px;
+}
+
+.submit-button {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.vertical-line {
+    border-left: 3px solid white;
+    height: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+
+.contactContainer {
+    margin: 0 120px;
+    font-family: "Roboto", sans-serif;
 }
