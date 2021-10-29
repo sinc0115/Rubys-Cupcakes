@@ -33,11 +33,13 @@
         </nav>
         <!-- NAV ENDS -->
         <div class="contactContainer">
-            <!-- HEADER -->
-            <header>
-                <h2>Contact</h2>
-            </header>
-            <!-- HEADER ENDS -->
+            <div class="contactHeader">
+                <!-- HEADER -->
+                <header>
+                    <h2>Contact</h2>
+                </header>
+                <!-- HEADER ENDS -->
+            </div>
 
             <!-- MAIN -->
             <main>
@@ -52,52 +54,49 @@
                 <!-- Form details -->
                 <div class="form">
                     <h4>General Inquiries:</h4>
-                    <label for="Name">Name</label><br>
-                    <input type="text" name="Name" placeholder="Ruby Karenena"  required><br>
-                    <label for="Email">Email</label><br>
-                    <input type="email" name="Email" placeholder="ruby.karenena@mail.com"  required ><br>
-                    <label for="Message">Message</label><br>
-                    <textarea name="Message" placeholder="Write us a message, we love to chat!" cols="25" rows="5" ></textarea><br>
+                    <label for="Name">Name <span class="inputRequired">*</span></label>
+                    <input type="text" name="Name" placeholder="Ruby Karenena"  required>
+                    <label for="Email">Email <span class="inputRequired">*</span></label>
+                    <input type="email" name="Email" placeholder="ruby.karenena@mail.com"  required >
+                    <label for="Message">Message</label>
+                    <textarea name="Message" placeholder="Write us a message, we love to chat!" cols="25" rows="5" ></textarea>
+                    <form method="POST" action="thankyou.html">
                     <input type="submit" value="Submit">
                 </div>
-
-                <!-- Bakery Hours -->
-                <div class="aboutTimings">
-                    <h4>Bakery Hours</h4>
-                    <p><span>Monday</span> Closed</p>
-                    <p><span>Tuesday-Thursday</span> 8am-6pm</p>
-                    <p><span>Friday-saturday</span> 8am-8pm</p>
-                    <p><span>Sunday</span> 8am-6pm</p>
-                </div>
-
-                <!-- Map Details -->
-                <div class="map">
-                    <h4>1323 Bakery Cres., Chocolateville BC</h4>
-                    <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=320&amp;height=320&amp;hl=en&amp;q=united states&amp;t=&amp;z=4&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.fnfgo.com/">FNF Online</a></div><style>.mapouter{position:relative;text-align:right;width:320px;height:320px;}.gmap_canvas {overflow:hidden;background:none!important;width:320px;height:320px;}.gmap_iframe {width:320px!important;height:320px!important;}</style></div>
+                <div>
+                    <!-- Bakery Hours -->
+                    <div class="aboutTimings">
+                        <h4>Bakery Hours</h4>
+                        <div class="timeContainer">
+                            <p>Monday <span class="time">Closed</span></p>
+                            <p>Tuesday-Thursday <span class="time">8am-6pm</span></p>
+                            <p>Friday-Saturday <span class="time">8am-8pm</span></p>
+                            <p>Sunday <span class="time">8am-6pm</span</p>
+                        </div>
+                    </div>
+    
+                    <!-- Map Details -->
+                    <div class="map">
+                        <h4>1323 Bakery Cres., Chocolateville BC</h4>
+                        <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=320&amp;height=320&amp;hl=en&amp;q=united states&amp;t=&amp;z=4&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.fnfgo.com/">FNF Online</a></div><style>.mapouter{position:relative;text-align:right;width:320px;height:320px;}.gmap_canvas {overflow:hidden;background:none!important;width:320px;height:320px;}.gmap_iframe {width:320px!important;height:320px!important;}</style></div>
+                    </div>
                 </div>
             </main>
-            <!-- MAIN ENDS -->
-
-            <!-- FOOTER -->
-            <footer>
-
-                <!-- SOCIAL MEDIA -->
-
-                <span class="socialIcon">
-                    <i class="fab fa-facebook-square"></i>
-                    <i class="fab fa-instagram-square"></i>
-                    <i class="fab fa-twitter-square"></i>
-
-                </span>
-
-                <!-- SOCIAL MEDIA ENDS -->
-
-                <p>&copy; 2021, Ruby's Cupcakes</p>
-            </footer>
-            <!-- FOOTER ENDS -->
+           <!-- MAIN ENDS --> 
         </div>
-
     </div>
+    <!-- FOOTER -->
+    <div class="footer">
+        <a class="footer-img-fb" href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a>
+        <a class="footer-img-insta" href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram-square fa-3x"></i></a>
+        <a class="footer-img-twitter" href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a>
+        <span class="copyright">&copy; 
+          <script type="text/javascript">
+            document.write(new Date().getFullYear());
+          </script>
+          , Ruby's Cupcakes</span>
+    </div>
+    <!-- FOOTER ENDS -->
 </body>
 
 </html>
