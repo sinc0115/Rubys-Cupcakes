@@ -602,6 +602,10 @@ button:hover {
     margin-left: auto;
   }
 
+  /* Map border*/ 
+  .gmap_canvas {
+    border-radius: 10%;
+  }
 /* end contact page css */
 
 /* footer */
