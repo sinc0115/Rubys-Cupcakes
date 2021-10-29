@@ -161,6 +161,16 @@ h1 {
   margin-top:200px;  
 }
 
+.left{
+  padding: 10px;
+  float:left;
+  overflow:hidden;
+}
+
+.right{
+  float: right;
+}
+
 .left-header{
   position:relative;
   left: 50px;
@@ -214,16 +224,17 @@ h1 {
 }
 
 .p-description2 {
+  padding: 10px;
   font-family: "Roboto", sans-serif;
   text-align:left;
   color:#002E52;
   letter-spacing: -.47px;
   opacity: 1;
   font: normal normal normal 25px/48px Roboto;
-  top: 1370px;
+  /* top: 1370px;
   left: 695px;
   width: 505px;
-  height: 181px;
+  height: 181px; */
   font-weight:bold;
 }
 
@@ -233,6 +244,8 @@ h1 {
 }
 
 .white-text{
+  position: absolute;
+  right:42%;
   font-size: 20px;
   color:white;
 }
@@ -251,7 +264,8 @@ h2 {
 }
 
 h3 {
-  margin-left: 695px;
+  margin-left: 555px;
+  letter-spacing:2px;
   font-size: 55px;
   font-family: "Bitter", serif;
   color: #004e89;
@@ -287,6 +301,7 @@ button {
   color: white;
   font-size: 18px;
 }
+
 
 button:hover {
   cursor: pointer;
@@ -341,7 +356,7 @@ button:hover {
 }
 
 .cupCakeCard {
-    width: 310px;
+    width: 28%;
     height: 443px;
     background-color: rgba(255, 255, 255, 0.26);
     /* background-color: #fff; */
@@ -351,11 +366,12 @@ button:hover {
 }
 
 .roundedCupCake{
-    width: 526px;
-    height: 526px;
+    width: 300px;
+    height: 300px;
     border-radius: 10%;
-    object-fit: cover;
-    object-position: bottom;
+    margin: 10px;
+    /* object-fit: cover; */
+    /* object-position: bottom; */
 }
 
 .cupCakeCard:hover .cupcake-shadow {
@@ -364,7 +380,7 @@ button:hover {
 }
 
 .cupCakeCard img {
-    width: 310px;
+    width: 100%;
     height: 310px;
     border-radius: 10%;
     object-fit: cover;
