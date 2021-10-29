@@ -149,9 +149,12 @@ h1 {
 }
 
 /* ryan start */
-.container{
+.container {
   margin-top: 175px;
-  margin: 120px;
+  /* margin: 120px; */
+  margin-left: 120px;
+  margin-right: 120px;
+
 }
 
 .container1{
