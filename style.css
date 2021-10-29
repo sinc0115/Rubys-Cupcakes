@@ -153,7 +153,9 @@ h1 {
 
 .container {
     margin-top: 175px;
-    margin: 120px;
+    /* margin: 120px; */
+    margin-left: 120px;
+    margin-right: 120px;
 }
 
 .container1 {
@@ -537,7 +539,7 @@ button:hover {
 }
 
 
-/* Form  */
+/* Form & Bakery hours */
 
 .form {
     display: flex;
@@ -546,7 +548,9 @@ button:hover {
 }
 
 .form h4,
-.form label {
+.form label,
+.aboutTimings h4,
+.aboutTimings p {
     color: #002E52;
     font-size: 25px;
     font-family: 'Roboto', sans-serif;
@@ -604,6 +608,18 @@ label span.inputRequired {
  :-ms-input-placeholder {
     color: #A3B4C1;
     font-family: 'Roboto', sans-serif;
+}
+
+.timeContainer {
+    max-width: 400px;
+}
+
+.timeContainer p {
+    display: flex;
+}
+
+.timeContainer p .time {
+    margin-left: auto;
 }
 
 
