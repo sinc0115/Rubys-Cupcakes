@@ -523,25 +523,25 @@ button:hover {
   display: flex;
 }
 
-  /* Form  */
+  /* Form & Bakery hours */
   .form {
     display: flex;
     flex-direction: column;
     max-width: 550px;
   }
     
-  .form h4, .form label{
+  .form h4, .form label, .aboutTimings h4, .aboutTimings p{
     color: #002E52;
     font-size : 25px;
     font-family: 'Roboto' ,sans-serif;
   }
 
-  .form h4{
+  .form h4, .aboutTimings h4, .aboutTimings p:last-child {
     margin-bottom: 10px;;
   }
 
-  .form label {
-    margin-top: 10px;;
+  .form label, .aboutTimings p {
+    margin-top: 10px;
   }
 
   input, textarea {
@@ -586,6 +586,18 @@ button:hover {
     color: #A3B4C1;
     font-family: 'Roboto' ,sans-serif;
   }    
+
+  .timeContainer {
+    max-width: 400px;
+  }
+
+  .timeContainer p {
+    display: flex;
+  }
+
+  .timeContainer p .time{
+    margin-left: auto;
+  }
 
 /* end contact page css */
 
