@@ -91,7 +91,7 @@ h3 {
 }
 
   .logo {
-    padding: 0 30px;
+    padding: 0 40px;
     color: #DA4167;
     font-family: 'Bitter', serif;
     font-size: 35px;
@@ -128,7 +128,45 @@ h3 {
 
 /* navbar-ends */
 
+/* navbar-responsive */
 
+@media screen and (max-width:990px){
+  nav {
+    flex-direction: column;
+    height: 150px;
+  }
+
+  span {
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width:600px){
+  nav {
+    position: absolute;
+    height: 200px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  nav ul li {
+    border-top: 1px solid #004E89;
+    text-align: center;
+  }
+
+  span {
+    padding: 20px;
+  }
+
+  header {
+    margin-top: 300px;
+  }
+}
+
+/* navbar-responsive-ends */
 
 h1 {
   margin-left: 120px;
@@ -420,7 +458,7 @@ button:hover {
 }
 
 .about-html {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'Roboto' ,sans-serif;
   font-weight: 0;
 }
 /* sulledy221 about page code */
@@ -602,6 +640,10 @@ button:hover {
     margin-left: auto;
   }
 
+  /* Map border*/ 
+  .gmap_canvas {
+    border-radius: 10%;
+  }
 /* end contact page css */
 
 /* footer */
