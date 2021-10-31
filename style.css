@@ -32,9 +32,9 @@ h1 {
     text-shadow: -2px -2px 1px #004E89, 2px -2px 1px #004E89, -2px 2px 1px #004E89, 2px 2px 1px #004E89;
 }
 
-header {
-    margin-top: 142px;
-}
+/* header {
+     margin-top: 142px;
+} */
 
 h2 {
     margin-left: 120px;
@@ -196,7 +196,7 @@ h1 {
 }
 
 .container1{
-  margin-top:200px;  
+  margin-top:200px;
 }
 
 .left-header{
@@ -204,10 +204,10 @@ h1 {
   left: 50px;
   top: 90px;
   width:50%;
-  
+
 }
 
-.header-image{    
+.header-image{
   width: 1200px;
   height: 900px;
   background: #F9E2F4 padding-box;
@@ -222,10 +222,10 @@ h1 {
   margin-right: -7.2%;
 }
 
-.oneRoundCupCake{    
+.oneRoundCupCake{
   width: 700px;
   height: 800px;
-  border-radius: 40px 0px 0px 0px;    
+  border-radius: 40px 0px 0px 0px;
   background: #F9E2F4 padding-box;
   margin-left: auto;
   right:0;
@@ -303,7 +303,7 @@ h3 {
   margin: 0 30px;
   position: relative;
   margin-top: -25%;
-  
+
 }
 
 /* ryan end */
@@ -340,7 +340,7 @@ button:hover {
     height: 526px;
     width: 80%;
     background-color: rgba(255, 255, 255, 0.26);
-    border-radius: 50px; 
+    border-radius: 50px;
 }
 
 #bigPreview img {
@@ -476,7 +476,7 @@ button:hover {
 
 .aboutHeader {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .aboutHeaderTxt {
@@ -570,7 +570,7 @@ button:hover {
     flex-direction: column;
     max-width: 550px;
   }
-    
+
   .form h4, .form label, .aboutTimings h4, .aboutTimings p{
     color: #002E52;
     font-size : 25px;
@@ -612,21 +612,21 @@ button:hover {
     color: #DA4167;
   }
 
-  ::placeholder { 
+  ::placeholder {
     color: #A3B4C1;
-    opacity: 1; 
+    opacity: 1;
     font-family: 'Roboto' ,sans-serif;
   }
 
-  ::-ms-input-placeholder { 
+  ::-ms-input-placeholder {
     color: #A3B4C1;
     font-family: 'Roboto' ,sans-serif;
-  }  
+  }
 
-  :-ms-input-placeholder { 
+  :-ms-input-placeholder {
     color: #A3B4C1;
     font-family: 'Roboto' ,sans-serif;
-  }    
+  }
 
   .timeContainer {
     max-width: 400px;
